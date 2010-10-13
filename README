@@ -25,11 +25,14 @@ USAGE
 
 i18n/L10n
 
-    Scour source for new messages:
+    maven-gettext-plugin and gettext-commons help with i18n.
+
+    Scour source for messages. Add new and delete removed ones from the
+    source translation file (src/main/po/keys.pot):
 
         mvn gettext:gettext
 
-    Update translations:
+    Update translations (src/main/po/*.po):
 
         mvn gettext:msgmerge
 
