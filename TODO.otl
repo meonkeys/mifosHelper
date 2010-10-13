@@ -13,11 +13,12 @@ TODO
 	[_] keep track of multiple Mifos installations
 	[_] find/test Tomcat
 	[_] start/stop Mifos
-[_] commit to git
 [_] use custom icon (instead of the steaming Java cup)
 [_] provide UI to change locale
 
 DONE
+[X] commit to git
+	and pushed to http://github.com/meonkeys/mifosHelper
 [X] license GPLv3
 [X] use much simpler GUI widget/component layout logic!
 	went with miglayout
