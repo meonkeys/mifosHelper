@@ -5,13 +5,15 @@ SUMMARY
 
 PREREQUISITES
 
-    1. gettext-commons, 2. maven-gettext-plugin.
+    (a) Java 6
+    (b) Maven
+    (c) gettext-commons
+    (d) maven-gettext-plugin
+    (e) GNU gettext
 
-        I installed both from source. All tests for gettext-commons failed.
+    I installed (c) and (d) from source. All tests for gettext-commons failed.
 
-    3. GNU gettext.
-
-        On Ubuntu, "sudo apt-get install gettext"
+    On Ubuntu, "sudo apt-get install gettext" satisfies (e).
 
 USAGE
 
