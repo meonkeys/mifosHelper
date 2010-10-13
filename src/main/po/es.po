@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-12 22:14-0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Adam Monsen <haircut@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /var/local/adamm-plain/workspace-helios/guiFromScratch/src/main/java/org/example/guiFromScratch/MyGUI.java:63
+msgid "Mifos Helper"
+msgstr ""
+
+#: /var/local/adamm-plain/workspace-helios/guiFromScratch/src/main/java/org/example/guiFromScratch/MyGUI.java:65
+msgid "Test database connection"
+msgstr ""
+
+#~ msgid "{0} Fahrenheit"
+#~ msgstr "{0} Fahrenheit"
+
+#~ msgid "Celsius Converter"
+#~ msgstr "Celsius Convertidor"
+
+#~ msgid "Celsius"
+#~ msgstr "Celsius"
+
+#~ msgid "Convert"
+#~ msgstr "Convertir"
+
+#~ msgid "Fahrenheit"
+#~ msgstr "Fahrenheit"
+
+#~ msgid "clicked!"
+#~ msgstr "hace clic!"

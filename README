@@ -1,0 +1,63 @@
+SUMMARY
+
+    Mifos Helper is a GUI tool to aid in managing Mifos. For instance,
+    it will help you verify your database connection works.
+
+PREREQUISITES
+
+    1. gettext-commons, 2. maven-gettext-plugin.
+
+        I installed both from source. All tests for gettext-commons failed.
+
+    3. GNU gettext.
+
+        On Ubuntu, "sudo apt-get install gettext"
+
+USAGE
+
+    Build:
+
+        mvn clean gettext:dist install
+
+    Run:
+
+        Easiest is via Eclipse. Run MyGUI as a Java application.
+
+i18n/L10n
+
+    Scour source for new messages:
+
+        mvn gettext:gettext
+
+    Update translations:
+
+        mvn gettext:msgmerge
+
+    Generate binary translations:
+
+        mvn gettext:dist
+
+    Generate report on L10n:
+
+        mvn gettext:report
+
+DEVELOPER NOTES
+
+    How to set up & use maven-gettext-plugin:
+
+        http://blogs.igalia.com/dpino/?p=61
+
+    gettext-commons:
+
+        http://code.google.com/p/gettext-commons/
+
+    gettext-commons and maven-gettext-plugin are quite simple, the best
+    documentation is their source codes.
+
+LICENSE
+
+    GPL v3 or any later version. See COPYING.
+
+COPYRIGHT
+
+    (C)2010 Adam Monsen <haircut@gmail.com>

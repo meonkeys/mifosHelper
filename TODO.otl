@@ -1,0 +1,27 @@
+TODO
+[_] provide MySQL connection tester
+	[_] factor out Mifos code to locate & read db cxn info from local.properties
+	[_] read local.properties 
+	[_] try making a JDBC connection to MySQL
+	[_] intially, just test main db. test/acceptance later
+[_] redo documentation in txt2tags
+[_] simplify build
+	make "mvn clean install" work w/o needing "gettext:dist"
+[_] create pseudo-locale
+	[_] make sure everything is translatable and fits in components
+[_] provide Mifos installation manager?
+	[_] keep track of multiple Mifos installations
+	[_] find/test Tomcat
+	[_] start/stop Mifos
+[_] commit to git
+[_] use custom icon (instead of the steaming Java cup)
+[_] provide UI to change locale
+
+DONE
+[X] license GPLv3
+[X] use much simpler GUI widget/component layout logic!
+	went with miglayout
+		http://www.miglayout.com/
+	other stuff
+		http://download.oracle.com/javase/tutorial/uiswing/layout/
+		GridBag layout? http://www.youtube.com/watch?v=FB_wJpIdA8k
