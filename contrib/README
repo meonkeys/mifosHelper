@@ -1,0 +1,7 @@
+I'm fearful the org.xnap gettext stuff is unmaintained and will disappear, so
+I'm committing it here.
+
+http://sf.net/projects/xnap-commons is the project home.
+
+Just type "make" to build and install maven-gettext-plugin and gettext-commons
+in your local Maven repository, then you can build Mifos Helper.

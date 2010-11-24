@@ -11,7 +11,7 @@ PREREQUISITES
     (d) maven-gettext-plugin
     (e) GNU gettext
 
-    I installed (c) and (d) from source. All tests for gettext-commons failed.
+    For (c) and (d), cd into the "contrib" dir and type "make".
 
     On Ubuntu, "sudo apt-get install gettext" satisfies (e).
 
@@ -19,13 +19,13 @@ USAGE
 
     Build:
 
-        mvn clean gettext:dist install
+        mvn clean compile gettext:dist install
 
     Run:
 
         Easiest is via Eclipse. Run MyGUI as a Java application.
 
-i18n/L10n
+INTERNATIONALIZATION / LOCALIZATION
 
     maven-gettext-plugin and gettext-commons help with i18n.
 
